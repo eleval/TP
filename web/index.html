@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SHOOTER</title>
+<link rel="stylesheet" type="text/css" href="/tp-static/css/base.css"/>
+<link rel="stylesheet" type="text/css" href="/tp-static/css/scene.css"/>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="/tp-static/js/EnnemyFeedback.js"></script>
+<script type="text/javascript" src="/tp-static/js/MainMenu.js"></script>
+<script type="text/javascript" src="/tp-static/js/Gui.js"></script>
+<script type="text/javascript" src="/tp-static/js/Ennemy.js"></script>
+<script type="text/javascript" src="/tp-static/js/Ghost.js"></script>
+<script type="text/javascript" src="/tp-static/js/Frelion.js"></script>
+<script type="text/javascript" src="/tp-static/js/Sprite.js"></script>
+<script type="text/javascript" src="/tp-static/js/Game.js"></script>
+<script type="text/javascript" src="/tp-static/js/main.js"></script>
+<script type="text/javascript" src="/tp-static/js/utils.js"></script>
+
+</head>
+<body onload="start()">
+<div id="screen">
+	<div class="scene-view">
+		<div id="main-scene" class="scene">
+			<div id="flash" class="flash"></div>
+		</div>
+		<div id="gui" class="gui">
+			<img style="position: absolute; left: 0px; top: 0px; width: 16px; height: 16px;" src="/tp-static/img/heart.png" id="heart0">
+			<img style="position: absolute; left: 16px; top: 0px; width: 16px; height: 16px;" src="/tp-static/img/heart.png" id="heart1">
+			<img style="position: absolute; left: 32px; top: 0px; width: 16px; height: 16px;" src="/tp-static/img/heart.png" id="heart2">
+			<img style="position: absolute; left: 48px; top: 0px; width: 16px; height: 16px;" src="/tp-static/img/heart.png" id="heart3">
+			<img style="position: absolute; left: 64px; top: 0px; width: 16px; height: 16px;" src="/tp-static/img/heart.png" id="heart4">
+			
+			<div class="score">
+				<img style="position: absolute; left: 50px; top: 0px; width: 14px; height: 14px;" src="/tp-static/img/icon-star-on.png">
+				<div class="scoreText" id="score" style="overflow: hidden">
+					<div id="RealScore">0</div>
+					<div id="FakeScore">0</div>
+				</div>
+			</div>
+		</div>
+		<div class="MainMenu" id="MainMenu">
+			<div class="Title">SHOOTER</div>
+			<div class="MainScore" id="MainScore">SCORE = 0<br><br><br> MEILLEUR SCORE = 0<br></div>
+			<div class="MainButton" id="EasyButton" style="top: 80px;"><br>FACILE</div>
+			<div class="MainButton" id="HardButton" style="top: 90px;"><br>DIFFICILE</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

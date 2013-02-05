@@ -1,0 +1,207 @@
+.scene-view{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.scene{
+	position: absolute;
+	width: 1024px;
+	height: 400px;
+	background-image: url(/tp-static/img/sky.jpg);
+	cursor: url(/tp-static/img/aim-off.png), auto;
+
+}
+
+.flash
+{
+	position : absolute;
+	width : 1024px;
+	height : 400px;
+	background-color : red;
+	opacity : 0.0;
+}
+
+.ennemy
+{
+	position: absolute;
+}
+
+.gui
+{
+	position : absolute;
+	width : 1024px;
+	height : 16px;
+}
+
+.score
+{
+	position : absolute;
+	top : 0;
+	left : 960px;
+	width : 44px;
+	height : 16px;
+}
+
+.scoreText
+{
+	font-size: 14px;
+	text-align: right;
+	width : 50px;
+	height : 16px;
+	font-family: gunship-condensed;
+	color : white;
+	text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+}
+
+.MainMenu
+{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	height : 300px;
+	width : 300px;
+	border: black solid 2px;
+	left : 362px;
+	top : 50px;
+}
+
+.Title
+{
+	position : relative;
+	
+	font-family: gunship-italic;
+	text-align : center;
+	font-size : 32px;
+	text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black,
+		3px 3px 7px yellow, -3px -3px 7px yellow, -3px 3px 7px yellow, 3px -3px 7px yellow;
+		
+	top : 10px;
+}
+
+.MainScore
+{
+	position : relative;
+	
+	top : 40px;
+	
+	font-family: gunship;
+	text-align : center;
+	font-size : 12px;
+	color : white;
+}
+
+.MainButton
+{
+	position : relative;
+	
+	font-family: gunship;
+	text-align : center;
+	font-size : 12px;
+	color : white;
+	
+	left : 50px;
+	
+	width : 200px;
+	height : 40px;
+	
+	background: rgba(180, 0, 0, 1.0);
+	
+	border: white solid 2px;
+	
+	border-radius: 15px;
+	
+	cursor : pointer;
+}
+
+.MainButtonOver
+{
+	position : relative;
+	
+	font-family: gunship;
+	text-align : center;
+	font-size : 12px;
+	color : white;
+	
+	left : 50px;
+	
+	width : 200px;
+	height : 40px;
+	
+	background: rgba(255, 0, 0, 1.0);
+	
+	border: white solid 2px;
+	
+	box-shadow: 1px 1px 20px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+	
+	border-radius: 15px;
+	
+	cursor : pointer;
+}
+
+.MainButtonPressed
+{
+	position : relative;
+	
+	font-family: gunship;
+	text-align : center;
+	font-size : 12px;
+	color : white;
+	
+	left : 50px;
+	
+	width : 200px;
+	height : 40px;
+	
+	background: rgba(255, 0, 0, 1.0);
+	
+	border: black solid 2px;
+	
+	box-shadow: 1px 1px 20px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+	
+	border-radius: 15px;
+	
+	cursor : pointer;
+}
+
+#RealScore
+{
+	position : relative;
+}
+
+#FakeScore
+{
+	position : relative;
+}
+
+.ScoreFeedBack
+{
+	position : absolute;
+	
+	font-family: gunship;
+	text-align : center;
+	font-size : 24px;
+	
+	color : green;
+	
+	text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+	
+	opacity : 0.5;
+}
+
+.LifeFeedBack
+{
+	position : absolute;
+	
+	background-image : url(/tp-static/img/heart.png);
+	
+	width : 32px;
+	height : 32px;
+	
+	opacity : 0.5;
+	
+	background-size:32px 32px;
+	background-repeat:no-repeat;
+}
